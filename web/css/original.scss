@@ -15563,7 +15563,7 @@ textarea {
 		vertical-align: middle;
 		min-width: 50px;
 	}
-	&.appMenu--top .link-active {
+	&.appMenu__top .link-active {
 		margin: 0 8px;
 		text-transform: uppercase;
 	}
@@ -15618,7 +15618,7 @@ textarea {
 		margin-bottom: 10px;
 	}
 }
-.appMenu--top {
+.appMenu__top {
 	margin: 30px 0 0 20px;
 	float: left;
 	.appMenu__entry a {
@@ -15626,7 +15626,7 @@ textarea {
 		text-transform: uppercase;
 	}
 }
-.appMenu--bottom {
+.appMenu__bottom {
 	margin: 5px 0 14px;
 	.appMenu__entry a {
 		margin: 0 7px;

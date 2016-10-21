@@ -22,17 +22,64 @@ AppAsset::register($this);
     <?php $this->head() ?>
 </head>
 <body>
-<?php $this->beginBody() ?>
+    <div class="overlay" style="background-image: ">
+        
+    </div>
 
-<header>
-    
-</header>
+    <?php $this->beginBody() ?>
 
-<footer class="footer">
+    <header>
+        <div class="container header__wrapper">
+            <a class="logo" href="/"><img alt="Logo" src="/img/logo_auth.png"></a>
+            <div>
+                <div class="select-lang">
 
-</footer>
+                </div><!--end select-lang-->
+            </div>
+            <div class="login-option select">
+                <div class="my-sel">
+                    <div class="sel-cont">
+                    </div>
+                </div>
 
-<?php $this->endBody() ?>
-</body>
-</html>
-<?php $this->endPage() ?>
+            </div>
+        </div>
+    </header>
+    <section>
+        
+    </section>
+    <section>
+        
+    </section>
+    <?= $content ?>
+
+    <footer class="footer footer--authorized">
+        <div class="container footer__wrapper">
+            <nav class="appMenu appMenu__bottom">
+                <ul>
+                    <li class="appMenu__entry"><a href="/servis-dlya-prodvijenia/">About</a></li>
+                    <li class="appMenu__entry"><a href="/price/">Plans</a></li>
+                    <li class="appMenu__entry"><a href="/guide/">Guide</a></li>
+                    <li class="appMenu__entry"><a href="/blog/">Blog</a></li>
+                    <li class="appMenu__entry"><a href="/contacts/">Contacts</a></li>
+                    <li class="appMenu__entry"><a href="/faq/">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="footer__copyright">
+                © 2015 – 2016        </div>
+
+
+                <a class="footer__logo" href="/"><img alt="Logo" src="/img/logo-doinsta-small.png"></a>        
+
+                <a class="footer__email" href="mailto:support@doinsta.com">support@doinsta.com</a>
+                <a class="footer__feedback" rel="nofollow" href="javascript:void(0);">Feedback</a>
+
+                <a style="font-size: 14px; float: right; display: block; margin: 17px 26px 0 0;" href="/service-agreement/" target="_blank">Service agreement</a><br>
+
+            </div><!--end all-->
+        </footer>
+
+        <?php $this->endBody() ?>
+    </body>
+    </html>
+    <?php $this->endPage() ?>

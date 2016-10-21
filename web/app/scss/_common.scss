@@ -1,3 +1,65 @@
-.help {
-	color: red;
+.container {
+
 }
+
+.row {
+	
+}
+
+.appMenu {
+	font-family: PT Sans, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 31px;
+	vertical-align: middle;
+	text-align: center;
+	.link-active {
+		display: inline-block;
+		color: #ef395b;
+		text-decoration: none;
+		vertical-align: middle;
+		min-width: 50px;
+	}
+	&.appMenu__top .link-active {
+		margin: 0 8px;
+		text-transform: uppercase;
+	}
+
+	.appMenu__top {
+		margin: 30px 0 0 20px;
+		float: left;
+		ul > li > a {
+			margin: 0 8px;
+			text-transform: uppercase;
+		}
+	}
+
+	.appMenu__bottom {
+		margin: 5px 0 14px;
+		ul > li > a {
+			margin: 0 7px;
+			font-size: 20px;
+		}
+	}
+
+	ul > li {
+		display: inline-block;
+		zoom: 1;
+		position: relative;
+		vertical-align: middle;
+		margin: 0 7px;
+		font-size: 20px;		
+		a {
+			display: inline-block;
+			color: #231f20;
+			text-decoration: none;
+			vertical-align: middle;
+			min-width: 50px;
+			&:hover {
+				color: #ef395b;
+				text-decoration: none;
+			}
+		}
+	}	
+}
+
